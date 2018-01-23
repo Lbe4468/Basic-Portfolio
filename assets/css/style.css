@@ -32,7 +32,7 @@ body {
 	color: #c1c1c1;
 }
 
-.nav> li > a:hover {
+.nav > li > a:hover {
 	color: #ffffff;
 }
 
@@ -66,10 +66,11 @@ border-top: rgb(9, 25, 98) solid 4px;
 .content {
 	background-color: #595959;
 	height: 100%;
-	width: 740px;
+	width: 745px;
 	max-width: auto;
 	min-width: auto;
 	padding-top: 175px;
+	padding-left: 5px;
 	margin: 20px 375px 50px 10%;
 	display: flex;
 	flex-direction: row;
@@ -78,8 +79,15 @@ border-top: rgb(9, 25, 98) solid 4px;
 	border: rgb(9, 25, 98) solid 4px;
 }
 
-img {
-	padding: 10px 10px 10px 10px;
+#image {
+	padding: 0;
+	border: rgb(9, 25, 98) solid 3px;
+	margin-left: 8px;
+}
+
+#images {
+	margin-left: 10px;
+	border: rgb(9, 25, 98) solid 3px;
 }
 
 .para {
@@ -99,6 +107,32 @@ img {
 	width: 720px;
 }
 
+form {
+	font-size: 25px;
+	padding-left: 25px;
+	color: #ffffff;
+}
+
+.input {
+	min-width: 500px;
+	width: auto;
+	height: 25px;
+}
+
+input {
+	width: 75px;
+	font-size: 15px;
+}
+
+.button {
+	max- width: 75px;
+}
+
+.message {
+	width: 600px;
+	height: 450px;
+	padding-top: 0.5em;
+}
 .sidebar {
 	background-color: #595959;
 	height: auto;
